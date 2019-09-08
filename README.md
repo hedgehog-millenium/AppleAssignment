@@ -24,13 +24,20 @@ General notes:
 
 ```
 
-## Prerequisites
+## How to Run with Docker (easiest way)
+* Downlod repository to {path_to_repo_dir}. cd to {path_to_repo_dir} using terminal) *
 
-* [spark 2.2.2 and higher](https://www.apache.org/dyn/closer.lua/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz) - Spark
-* [python3](https://www.python.org/downloads/) - Python3
-* [jupyter](https://jupyter.org/)
+```
+### run commands
+docker build -t apple_assign/jupyter .
+docker run -p 8888:8888 apple_assign/jupyter
+```
 
-## How to Run
+### Prerequisites
+* [docker](https://www.docker.com/products/docker-desktop) - docker
+
+
+## How to Run Local
 * Downlod repository to {path_to_repo_dir} ) *
 ```
 ###### run jupyter notebook with path to repo directory
@@ -39,6 +46,13 @@ jupyter notebook --notebook-dir {path_to_repo_dir}
 ##### open .ipynb file
 click on ApplePyspark.ipynb
 ```
+
+### Prerequisites
+
+* [spark 2.2.2 and higher](https://www.apache.org/dyn/closer.lua/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz) - Spark
+* [python3](https://www.python.org/downloads/) - Python3
+* [jupyter](https://jupyter.org/) - Jupyter Notebook
+
 
 ## Next Steps `Unfortunately have no enough time :( `
 *  Generate python file from Jupyter Notbook to be able to submit job with spark-submit *
