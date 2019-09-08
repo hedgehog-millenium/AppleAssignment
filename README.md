@@ -31,7 +31,7 @@ General notes:
 * [jupyter](https://jupyter.org/)
 
 
-## Next Steps (Unfortunately have no enough time :( ) ...
+## Next Steps `Unfortunately have no enough time :( `
 *  Generate python file from Jupyter Notbook to be able to submit job with spark-submit *
 *  Implement the same logic with Scala SBT or Scala Maven project *
 *  Implement the same with scala sbt project *
