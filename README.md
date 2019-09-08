@@ -63,4 +63,4 @@ click on ApplePyspark.ipynb
 *  Implement the same logic with Scala SBT or Scala Maven project *
 *  Implement the same with scala sbt project *
 *  Cover code with unit tests oncve it in seperate class *
-*  Add docker compose file to allow run the project with single command *
+*  ~Add docker compose file to allow run the project with single command~ *
