@@ -28,9 +28,13 @@ General notes:
 * Downlod repository to {path_to_repo_dir}. cd to {path_to_repo_dir} using terminal) *
 
 ```
-### run commands
+### run docker
 docker build -t apple_assign/jupyter .
 docker run -p 8888:8888 apple_assign/jupyter
+
+### enjoy project
+copy link from terminal to browser 
+open
 ```
 
 ### Prerequisites
