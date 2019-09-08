@@ -30,6 +30,15 @@ General notes:
 * [python3](https://www.python.org/downloads/) - Python3
 * [jupyter](https://jupyter.org/)
 
+## How to Run
+* Downlod repository to {path_to_repo_dir} ) *
+```
+###### run jupyter notebook with path to repo directory
+jupyter notebook --notebook-dir {path_to_repo_dir}
+
+##### open .ipynb file
+click on ApplePyspark.ipynb
+```
 
 ## Next Steps `Unfortunately have no enough time :( `
 *  Generate python file from Jupyter Notbook to be able to submit job with spark-submit *
