@@ -1,0 +1,28 @@
+category,product,userId,eventTime,eventType
+books,Scala for Dummies,user 100,3/1/18 12:00,view description
+books,Scala for Dummies,user 100,3/1/18 12:01,like
+books,Scala for Dummies,user 100,3/1/18 12:01,check status
+books,Java for Dummies,user 100,3/1/18 12:02,view description
+books,Java for Dummies,user 100,3/1/18 12:02,dislike
+books,Java for Dummies,user 100,3/1/18 12:02,close description
+books,Scala for Dummies,user 100,3/1/18 12:04,view description
+books,Scala for Dummies,user 100,3/1/18 12:06,add to bucket
+books,"Sherlock Holmes, full collection",user 200,3/1/18 12:11,view description
+books,"Sherlock Holmes, full collection",user 200,3/1/18 12:12,check status
+books,"Sherlock Holmes, full collection",user 200,3/1/18 12:13,sign for updates
+books,Romeo and Juliet,user 200,3/1/18 12:15,view description
+books,Romeo and Juliet,user 200,3/1/18 12:15,check status
+books,Romeo and Juliet,user 200,3/1/18 12:15,add to bucket
+mobile phones,iPhone X,user 300,3/1/18 12:05,view description
+mobile phones,iPhone X,user 300,3/1/18 12:05,add to bucket
+mobile phones,iPhone 8 Plus,user 100,3/1/18 12:06,view description
+mobile phones,iPhone 8 Plus,user 100,3/1/18 12:07,add to bucket
+mobile phones,iPhone 8,user 100,3/1/18 12:08,view description
+mobile phones,iPhone 8,user 100,3/1/18 12:13,dislike
+notebooks,MacBook Pro 15,user 100,3/1/18 12:15,view description
+notebooks,MacBook Pro 15,user 100,3/1/18 12:16,check status
+notebooks,MacBook Pro 13,user 200,3/1/18 12:15,view description
+notebooks,MacBook Pro 13,user 200,3/1/18 12:17,like
+notebooks,MacBook Pro 13,user 200,3/1/18 12:17,add to bucket
+notebooks,MacBook Air,user 300,3/1/18 12:14,view description
+notebooks,MacBook Air,user 300,3/1/18 12:20,dislike
