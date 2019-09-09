@@ -29,12 +29,12 @@ General notes:
 
 ```
 ### run docker
-docker build -t apple_assign/jupyter .
-docker run -p 8888:8888 apple_assign/jupyter
+docker build -t grid_assign/jupyter .
+docker run -p 8888:8888 grid_assign/jupyter
 
 ### enjoy project
 copy link from terminal to browser 
-open
+open JupyterPyspark.ipynb
 ```
 
 ### Prerequisites
@@ -48,7 +48,7 @@ open
 jupyter notebook --notebook-dir {path_to_repo_dir}
 
 ##### open .ipynb file
-click on ApplePyspark.ipynb
+click on JupyterPyspark.ipynb.ipynb
 ```
 
 ### Prerequisites
