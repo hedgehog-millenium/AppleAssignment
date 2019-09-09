@@ -28,9 +28,13 @@ General notes:
 * Downlod repository to {path_to_repo_dir}. cd to {path_to_repo_dir} using terminal) *
 
 ```
-### run commands
+### run docker
 docker build -t apple_assign/jupyter .
 docker run -p 8888:8888 apple_assign/jupyter
+
+### enjoy project
+copy link from terminal to browser 
+open
 ```
 
 ### Prerequisites
@@ -59,4 +63,4 @@ click on ApplePyspark.ipynb
 *  Implement the same logic with Scala SBT or Scala Maven project *
 *  Implement the same with scala sbt project *
 *  Cover code with unit tests oncve it in seperate class *
-*  Add docker compose file to allow run the project with single command *
+*  ~Add docker compose file to allow run the project with single command~ *
